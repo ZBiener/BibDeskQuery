@@ -10,7 +10,7 @@ The workflow is made for Alfred 3, but is compatible with Alfred 4. The basic op
 
 This is what the first option looks like, after I typed in "Cohen":
 
-![BibDesk Lookup](https://zbiener.github.io/images/2016-06-06-searching-bibdesk-1.png)!
+![BibDesk Lookup](https://zbiener.github.io/images/2016-06-06-searching-bibdesk-1.png)
 
 Now several actions are possible, depending on which modifier keys you press:
 
@@ -23,7 +23,7 @@ Now several actions are possible, depending on which modifier keys you press:
 
 The citation option is the most complicated and the most useful. After selecting it, you are prompted to enter a page range for the citation (you can leave it blank) and a citation format. I use Pandoc and LaTeX, but it is easy to add/remove other formats from within Alfred.
 
-![Citation Options](https://zbiener.github.io/images/2016-06-06-searching-bibdesk-2.jpg){:width="80%"}
+![Citation Options](https://zbiener.github.io/images/2016-06-06-searching-bibdesk-2.jpg){:width="65%"}
 
 Then, depending on your selection, you'll get a notification of the item copied into the clipboard. If you are in an active text field --- i.e., if you do all this when working in Word, for example --- the entry is pasted automatically. It looks like this:
 

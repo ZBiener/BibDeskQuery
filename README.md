@@ -4,9 +4,11 @@ An Alfred workflow to search BibDesk, open files, or create citation commands.
 
 The workflow is made for Alfred 3, but is compatible with Alfred 4. The basic options are:
 
-"bb X" = search all bibligraphic fields within BibDesk for X
-"bt X" = search titles within BibDesk for X
-"ba X" = search authors/editors within BibDesk for X
+**bb X** = search all bibligraphic fields within BibDesk for X
+
+**bt X** = search titles within BibDesk for X
+
+**ba X** = search authors/editors within BibDesk for X
 
 This is what the first option looks like, after I typed in "Cohen":
 
@@ -14,11 +16,11 @@ This is what the first option looks like, after I typed in "Cohen":
 
 Now several actions are possible, depending on which modifier keys you press:
 
-+ enter = open the entry in BibDesk
-+ shift+enter = open the file associated with the entry (the plus sign in the entry's icon indicates that there is a file associated with it).
-+ cmd+enter = copy the citation into the clipboard.
-+ opt+enter = search the BibDesk GUI using the original search term.
-+ ctrl+enter = change the search scope, either narrow to author or titles, or broader from authors or title to all search fields (this is like starting the search over).
++ **enter** = open the entry in BibDesk
++ **shift+enter** = open the file associated with the entry (the plus sign in the entry's icon indicates that there is a file associated with it).
++ **cmd+enter** = copy the citation into the clipboard.
++ **opt+enter** = search the BibDesk GUI using the original search term.
++ **ctrl+enter** = change the search scope, either narrow to author or titles, or broader from authors or title to all search fields (this is like starting the search over).
 
 
 The citation option is the most complicated and the most useful. After selecting it, you are prompted to enter a page range for the citation (you can leave it blank) and a citation format. I use Pandoc and LaTeX, but it is easy to add/remove other formats from within Alfred.

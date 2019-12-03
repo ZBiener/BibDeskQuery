@@ -797,7 +797,7 @@ end alfred_script</string>
 		</dict>
 	</array>
 	<key>readme</key>
-	<string>This workflow only works after the bibdesk library has been saved, thus re-creating all cached files.</string>
+	<string>Note: this workflow only works after a bibdesk library has been saved at least once. Saving the bibdesk library creates the cached files served by this workflow.</string>
 	<key>uidata</key>
 	<dict>
 		<key>0A58A85D-E430-449A-82D7-49FFCDF6FE5E</key>

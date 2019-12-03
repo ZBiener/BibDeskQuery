@@ -1,5 +1,9 @@
 #!/usr/bin/python
 # encoding: utf-8
+# By Zvi Biener <zbiener@gmail.com>, modified from original script by  Stephen Margheim
+#
+# MIT Licence. See http://opensource.org/licenses/MIT
+
 from __future__ import unicode_literals
 
 import sys

@@ -10,7 +10,7 @@ The workflow is made for Alfred 3, but is compatible with Alfred 4. The basic op
 
 This is what the first option looks like, after I typed in "Cohen":
 
-![](https://zbiener.github.io/images/2016-06-06-searching-bibdesk-1.png){ width=% }
+![BibDesk Lookup](https://zbiener.github.io/images/2016-06-06-searching-bibdesk-1.png)
 
 Now several actions are possible, depending on which modifier keys you press:
 
@@ -23,12 +23,12 @@ Now several actions are possible, depending on which modifier keys you press:
 
 The citation option is the most complicated and the most useful. After selecting it, you are prompted to enter a page range for the citation (you can leave it blank) and a citation format. I use Pandoc and LaTeX, but it is easy to add/remove other formats from within Alfred.
 
-![](https://zbiener.github.io/images/2016-06-06-searching-bibdesk-2.jpg){ width=% }
+![](https://zbiener.github.io/images/2016-06-06-searching-bibdesk-2.jpg)
 
 Then, depending on your selection, you'll get a notification of the item copied into the clipboard. If you are in an active text field --- i.e., if you do all this when working in Word, for example --- the entry is pasted automatically. It looks like this:
 
-![](https://zbiener.github.io/images/2016-06-06-searching-bibdesk-3.png){ width=% }
+![](https://zbiener.github.io/images/2016-06-06-searching-bibdesk-3.png)
 
 The Workflow is based on BibQuery by Hackademic. I modified it to use JSON (instead of XML), and modified the way it interacts with Alfred. Consequently, there is also a lot of dead code in the python scripts. I left it there with the hopes of one day making more search options (keyword, group, etc.) available. The entire flow looks like this:
 
-![](https://zbiener.github.io/images/2016-06-06-searching-bibdesk-4.jpg){ width=% }
+![](https://zbiener.github.io/images/2016-06-06-searching-bibdesk-4.jpg)
